@@ -5,7 +5,8 @@
     * built in commands: "exit", "status", "cd"
     * executes all other valid non-built in bash commands
     * foreground mode-runs new processes in the foreground only
-    * background child process cleanup to avoid zombie processes
+    * run background processes by adding & at the end of any valid command
+    * background child process are cleaned up asynchronously 
 
 ## Compilation
 
